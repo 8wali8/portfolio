@@ -54,37 +54,41 @@ const AboutMe = () => {
     return (
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
-                <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
-                    I believe in a user centered design approach, ensuring that
-                    every project I work on is tailored to meet the specific
-                    needs of its users.
+                <h2 className="text-3xl md:text-4xl font-bold mb-8 slide-up-and-fade">
+                    About <span className="text-primary">Me</span>
                 </h2>
 
-                <p className="pb-3 border-b text-muted-foreground slide-up-and-fade">
-                    This is me.
-                </p>
+                <div className="grid md:grid-cols-12 gap-8">
+                    <div className="md:col-span-6">
+                        <h3 className="text-2xl font-semibold slide-up-and-fade">
+                            Purdue CS + Statistics | Class of 2027
+                        </h3>
+                        <p className="text-muted-foreground mt-4 slide-up-and-fade">
+                            I&apos;m a CS and Statistics double major with a certificate in Entrepreneurship, building practical systems in ML, distributed architectures, and full-stack product engineering.
+                        </p>
 
-                <div className="grid md:grid-cols-12 mt-9">
-                    <div className="md:col-span-5">
-                        <p className="text-5xl slide-up-and-fade">
-                            Hi, I&apos;m Tajmirul.
+                        <p className="text-muted-foreground mt-4 slide-up-and-fade">
+                            Recent internships include NASA (astronomical data pipelines), Jumpseat (high-throughput pricing engines & web scrapers), and CosmicBrain AI (end-to-end AI pipeline delivery).
                         </p>
                     </div>
-                    <div className="md:col-span-7">
-                        <div className="text-lg text-muted-foreground max-w-[450px]">
-                            <p className="slide-up-and-fade">
-                                I&apos;m a frontend web developer dedicated to
-                                turning ideas into creative solutions. I
-                                specialize in creating seamless and intuitive
-                                user experiences.
+
+                    <div className="md:col-span-6 space-y-4">
+                        <div className="p-6 rounded-lg bg-secondary/20 slide-up-and-fade">
+                            <h4 className="text-lg font-semibold">High-Performance Systems</h4>
+                            <p className="text-muted-foreground mt-2">
+                                Building scalable systems and GPU-accelerated pipelines using Rust, Python, and CUDA.
                             </p>
-                            <p className="mt-3 slide-up-and-fade">
-                                My approach focuses on creating scalable,
-                                high-performing solutions tailored to both user
-                                needs and business objectives. By prioritizing
-                                performance, accessibility, and responsiveness,
-                                I strive to deliver experiences that not only
-                                engage users but also drive tangible results.
+                        </div>
+                        <div className="p-6 rounded-lg bg-secondary/20 slide-up-and-fade">
+                            <h4 className="text-lg font-semibold">AI & Robotics</h4>
+                            <p className="text-muted-foreground mt-2">
+                                Developing intelligent models and robotics simulation platforms using PyTorch and deep learning.
+                            </p>
+                        </div>
+                        <div className="p-6 rounded-lg bg-secondary/20 slide-up-and-fade">
+                            <h4 className="text-lg font-semibold">Full-Stack Engineering</h4>
+                            <p className="text-muted-foreground mt-2">
+                                Creating production applications with React, Node.js, and real-time systems.
                             </p>
                         </div>
                     </div>

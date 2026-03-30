@@ -42,17 +42,11 @@ const Banner = () => {
             >
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
-                        <span className="text-primary">FRONTEND</span>
-                        <br /> <span className="ml-4">DEVELOPER</span>
+                        <span className="text-primary">Hi, I&apos;m</span>
+                        <br /> <span className="ml-4">Ujjawal Prasad</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
-                        Hi! I&apos;m{' '}
-                        <span className="font-medium text-foreground">
-                            Tajmirul
-                        </span>
-                        . A creative Frontend Developer with 3+ years of
-                        experience in building high-performance, scalable, and
-                        responsive web solutions.
+                        I am a Purdue Computer Science & Statistics student building distributed analytics systems, AI-enabled pipelines, and full-stack software. My experience ranges from real-time engineering at Jumpseat to exoplanet discovery tooling at NASA.
                     </p>
                     <Button
                         as="link"

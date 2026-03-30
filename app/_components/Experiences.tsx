@@ -4,6 +4,7 @@ import { MY_EXPERIENCE } from '@/lib/data';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import Image from 'next/image';
 import { useRef } from 'react';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
@@ -58,16 +59,25 @@ const Experiences = () => {
 
                 <div className="grid gap-14">
                     {MY_EXPERIENCE.map((item) => (
-                        <div key={item.title} className="experience-item">
-                            <p className="text-xl text-muted-foreground">
-                                {item.company}
-                            </p>
-                            <p className="text-5xl font-anton leading-none mt-3.5 mb-2.5">
-                                {item.title}
-                            </p>
-                            <p className="text-lg text-muted-foreground">
-                                {item.duration}
-                            </p>
+                        <div key={item.title} className="experience-item flex items-start gap-4">
+                            <Image
+                                src={item.logo}
+                                alt={item.company}
+                                width={80}
+                                height={80}
+                                className="object-contain flex-shrink-0"
+                            />
+                            <div>
+                                <p className="text-xl text-muted-foreground">
+                                    {item.company}
+                                </p>
+                                <p className="text-5xl font-anton leading-none mt-3.5 mb-2.5">
+                                    {item.title}
+                                </p>
+                                <p className="text-lg text-muted-foreground">
+                                    {item.duration}
+                                </p>
+                            </div>
                         </div>
                     ))}
                 </div>
