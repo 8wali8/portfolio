@@ -3,7 +3,7 @@ import { IProject } from '@/types';
 export const GENERAL_INFO = {
     email: 'ujjawalprasad111@gmail.com',
 
-    emailSubject: "Let's connect about impactful software engineering opportunities",
+    emailSubject: "Let's connect about quant engineering and real-time systems opportunities",
     emailBody: 'Hi Ujjawal, I am reaching out because...',
 
     oldPortfolio: 'https://github.com/8wali8/portfolio-website',

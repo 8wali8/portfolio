@@ -46,7 +46,7 @@ const Banner = () => {
                         <br /> <span className="ml-4">Ujjawal Prasad</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
-                        I am a Purdue Computer Science & Statistics student building distributed analytics systems, AI-enabled pipelines, and full-stack software. My experience ranges from real-time engineering at Jumpseat to exoplanet discovery tooling at NASA.
+                        I am a Purdue Computer Science & Statistics student focused on performance-sensitive systems, real-time data pipelines, and low-latency decisioning. I am especially interested in quant-facing engineering where market data, pricing, and execution infrastructure need to be fast, reliable, and measurable.
                     </p>
                     <Button
                         as="link"

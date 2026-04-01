@@ -64,31 +64,31 @@ const AboutMe = () => {
                             Purdue CS + Statistics | Class of 2027
                         </h3>
                         <p className="text-muted-foreground mt-4 slide-up-and-fade">
-                            I&apos;m a CS and Statistics double major with a certificate in Entrepreneurship, building practical systems in ML, distributed architectures, and full-stack product engineering.
+                            I&apos;m a CS and Statistics double major with a certificate in Entrepreneurship, building performance-sensitive systems for streaming data, real-time analytics, and latency-critical decision workflows.
                         </p>
 
                         <p className="text-muted-foreground mt-4 slide-up-and-fade">
-                            Recent internships include NASA (astronomical data pipelines), Jumpseat (high-throughput pricing engines & web scrapers), and CosmicBrain AI (end-to-end AI pipeline delivery).
+                            My recent work spans high-throughput pricing pipelines at Jumpseat, astronomical data infrastructure at NASA, and production AI systems at CosmicBrain AI, with a consistent focus on throughput, reliability, and time-sensitive computation that maps well to quant engineering.
                         </p>
                     </div>
 
                     <div className="md:col-span-6 space-y-4">
                         <div className="p-6 rounded-lg bg-secondary/20 slide-up-and-fade">
-                            <h4 className="text-lg font-semibold">High-Performance Systems</h4>
+                            <h4 className="text-lg font-semibold">Performance-Sensitive Systems</h4>
                             <p className="text-muted-foreground mt-2">
-                                Building scalable systems and GPU-accelerated pipelines using Rust, Python, and CUDA.
+                                Building low-latency services, streaming infrastructure, and throughput-aware backends where speed and correctness directly affect outcomes.
                             </p>
                         </div>
                         <div className="p-6 rounded-lg bg-secondary/20 slide-up-and-fade">
-                            <h4 className="text-lg font-semibold">AI & Robotics</h4>
+                            <h4 className="text-lg font-semibold">Real-Time Analytics</h4>
                             <p className="text-muted-foreground mt-2">
-                                Developing intelligent models and robotics simulation platforms using PyTorch and deep learning.
+                                Working on live pricing, telemetry, and event-driven pipelines that support fast inference, monitoring, and operational decisioning.
                             </p>
                         </div>
                         <div className="p-6 rounded-lg bg-secondary/20 slide-up-and-fade">
-                            <h4 className="text-lg font-semibold">Full-Stack Engineering</h4>
+                            <h4 className="text-lg font-semibold">Quant-Relevant Engineering</h4>
                             <p className="text-muted-foreground mt-2">
-                                Creating production applications with React, Node.js, and real-time systems.
+                                Applying systems, statistics, and software engineering to the kinds of data-intensive, execution-critical problems that show up in quant research and trading infrastructure.
                             </p>
                         </div>
                     </div>
